@@ -1,0 +1,167 @@
+﻿<repository
+id="45b7039f-c240-447b-880f-fad533d60e91"
+name="JenkinsRepository"
+rxversion="8.2">
+	<codegen
+	classname="JenkinsRepository"
+	namespace="Jenkins">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="54156ae1-b43e-4392-885a-e16fdbc71d96"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5c6f01da-a72a-44cc-84f7-5ba52df14458"
+		isrooted="True"
+		name="Form1Reminder"
+		refpath="/form[@title='1 Reminder']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b9899e26-8648-4d3b-8e3c-66ccc75bb5d2"
+			name="ButtonDismiss"
+			refimgid="f29f9ff9-bdcd-4127-a603-6666b672446e"
+			refpath="/form[@title='1 Reminder']/button[@text='&amp;Dismiss']"
+			searchtimeout="30000ms">
+				/form[@title='1 Reminder']/button[@text='&amp;Dismiss']
+			</item>
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="593f8001-114f-43ce-ba23-7b899f5aba32"
+			name="TitleBar1Reminder"
+			refimgid="ee7a349b-29a1-4fe8-9946-cbf439ccf895"
+			refpath="/form[@title='1 Reminder']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title='1 Reminder']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title='1 Reminder']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK/SURBVDhPnZJZSJRRFMcHWzRndTc1jYKMigqx
+oOihl5Yne4og6KW3aCOJCFq1QjFRRClHzagkWo2CyhCM6kXTHL9cZpzRmcnJZTJTK3KfX2eulBBE
+0IE/33cu9/zOdnW/7MvL5DNDdcna59qk8aGaJAafJvLpyWL8j+IZuB9H/50Yequi+HgjEl+lhZ4y
+M96rRmaD61LyRpsypif8NQQmhoAZ0b/NU2xAZR5tzJgOjNlhtBr6MsG9HTrXg30NdKyEtuXQmgJa
+gigOmiMVwF2oRzdUm6wFM6vg7s3g2sBYw0p6H27Cey0CT3kk7tJofFVbGRtoJfCtQQAWBejKD0P3
++UXS+Eyw7H7J7NrIZPNqvJXJeMoW4b1uEEXTXaLHVaDHbU1ncthHwF+uAK6cUHSDzxLlV3p275Cy
+0xh8kKACuq1GRluLmfrqYfj1Xlz5BhwXDfhrswnMTCmA89JCdJ8eS1/KSwPHWhmMGZf05q/ZB4Fp
+6TmeQHMMPdZYOrINUsVOAci5WGfWfHQD1TKUoDnWydBW4cwx4cg1MNJcKoWNgy1Geo5g4KaRtlNG
+nIVbfgMc5+ah678Xq5xgMO0rsGeZsJ838KWhRAATsxN/Z6KvwsD7Eyacl+cA9rMC6LsdrRzaU2Vd
+y3BkWWg7aeTDrd0CmISWJczU63HmJqJlmmUje+YAp0PQBV+WsvbZXfdao9RF7biZ/ufZfPfU8/Hu
+frQjJloOmRl8VSGjkdbEFMBXGaEc2uShvE9k4k2stJCqLmuHRfJtOWjBdsBMV+Eu6eqHJEpXIQrw
+wWpWDlqSlCsDtUUxVmehq2gb2tEEAcSjHVtKT1UmkyN+8J2DhhAVogDeK0blBNeFTeYRfGXv5Kwp
+HBpD4e2C2YA/JaYAniK9cv7HFKC7IJyuvDBcuaG45GU5L8zHcV4kK7KfEcmlvyuEn5x8+3hqG0T1
+AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="2c553187-492c-49a2-81b3-f1311851f33a"
+		isrooted="True"
+		name="FormVipApplication"
+		refpath="/form[@controlname='formVipApplication']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="d9430882-3785-4749-bfaa-a7771dc85783"
+			name="FirstName"
+			refimgid="faf5b679-49e3-4795-a9fc-e1210b01b113"
+			refpath="/form[@controlname='formVipApplication']/text[@controlname='tbFirstName']/text[@accessiblename='First Name:']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='First Name:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="ec444731-e13f-46ad-b36d-c8a8f30b4fb6"
+			name="LastName"
+			refimgid="69724686-be35-4cb4-b2b5-ac8ec2fcc706"
+			refpath="/form[@controlname='formVipApplication']/text[@controlname='tbLastName']/text[@accessiblename='Last Name:']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='Last Name:']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="9e032e5e-83fb-458d-8f6b-4df2e8a4fe9d"
+			name="Music"
+			refimgid="dbd3c21b-2c47-425c-a63c-35462ad7853d"
+			refpath="/form[@controlname='formVipApplication']/list/list/listitem[@accessiblename='Music']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/list[@controlname='lbCategory']/?/?/listitem[@accessiblename='Music']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="a7050024-f927-440c-a6c6-32b58ceeeb4c"
+			name="RbMale"
+			refimgid="032923ab-4788-499e-a52c-b4b9e4a12a73"
+			refpath="/form[@controlname='formVipApplication']/container/radiobutton[@controlname='rbMale']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/radiobutton[@controlname='rbMale']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="c3f1bec8-44f6-427b-9148-dffa4cb86f23"
+			name="BtAdd"
+			refimgid="e1ff7f24-55a6-4522-bdee-bd97c2a8b0da"
+			refpath="/form[@controlname='formVipApplication']/button[@controlname='btAdd']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/button[@controlname='btAdd']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="f5109b06-0956-41ad-b452-d32aa1d95a7e"
+			name="BtDelete"
+			refimgid="96f0398e-6d44-4572-b5d0-1a4270e667ff"
+			refpath="/form[@controlname='formVipApplication']/button[@controlname='btDelete']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/button[@controlname='btDelete']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5c0161a1-a913-4d98-af93-73ee768c0c6e"
+			name="Close"
+			refimgid="4d66ea00-a5a3-493f-a49e-248d8e75b9c2"
+			refpath="/form[@controlname='formVipApplication']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@controlname='formVipApplication']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

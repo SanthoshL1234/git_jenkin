@@ -1,0 +1,9 @@
+C:\Users\Santhosh\Documents\Ranorex\RanorexStudio Projects\Jenkins\Jenkins\bin\Debug\Jenkins.rxtmg
+C:\Users\Santhosh\Documents\Ranorex\RanorexStudio Projects\Jenkins\Jenkins\bin\Debug\Jenkins.rxtst
+C:\Users\Santhosh\Documents\Ranorex\RanorexStudio Projects\Jenkins\Jenkins\bin\Debug\Jenkins.exe.config
+C:\Users\Santhosh\Documents\Ranorex\RanorexStudio Projects\Jenkins\Jenkins\bin\Debug\Jenkins.exe
+C:\Users\Santhosh\Documents\Ranorex\RanorexStudio Projects\Jenkins\Jenkins\bin\Debug\Jenkins.pdb
+C:\Users\Santhosh\Documents\Ranorex\RanorexStudio Projects\Jenkins\Jenkins\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Santhosh\Documents\Ranorex\RanorexStudio Projects\Jenkins\Jenkins\obj\x86\Debug\Jenkins.csprojResolveAssemblyReference.cache
+C:\Users\Santhosh\Documents\Ranorex\RanorexStudio Projects\Jenkins\Jenkins\obj\x86\Debug\Jenkins.exe
+C:\Users\Santhosh\Documents\Ranorex\RanorexStudio Projects\Jenkins\Jenkins\obj\x86\Debug\Jenkins.pdb
